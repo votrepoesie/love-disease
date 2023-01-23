@@ -36,7 +36,6 @@ function setup () {
     setTimeout(createGifCircle, 250, 30, 0.3, 300)
     setTimeout(createGifCircle, 250, 30, 0.3, 350)
     createGifCircle(1, 0.6, 1)
-    // setTimeout(createGifCircle, 100, 30, 0.3, 400)
 }
  
 window.addEventListener('load', setup)
