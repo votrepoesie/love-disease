@@ -1,5 +1,5 @@
-const bgColor = '#e585ca'
-const gifURL = 'two-butterflies.gif'
+const bgColor = 'black'
+const gifURL = 'heart.gif'
 const gifOffsetX = 75
 const gifOffsetY = 75
   
@@ -27,12 +27,17 @@ function setup () {
     document.body.style.overflow = 'hidden'
     createGifCircle(30, 0.3, 100)
     setTimeout(createGifCircle, 100, 30, 0.3, 150)
-    setTimeout(createGifCircle, 200, 30, 0.3, 200)
+    setTimeout(createGifCircle, 200, 30, 0.3, 160)
+    setTimeout(createGifCircle, 250, 30, 0.3, 190)
+    setTimeout(createGifCircle, 250, 30, 0.3, 210)
+    setTimeout(createGifCircle, 250, 30, 0.3, 230)
     setTimeout(createGifCircle, 250, 30, 0.3, 250)
     setTimeout(createGifCircle, 250, 30, 0.3, 270)
     setTimeout(createGifCircle, 250, 30, 0.3, 300)
-    setTimeout(createGifCircle, 250, 30, 0.3, 320)
+    setTimeout(createGifCircle, 250, 30, 0.3, 350)
+    createGifCircle(1, 0.6, 1)
+    // setTimeout(createGifCircle, 100, 30, 0.3, 400)
 }
-    
+ 
 window.addEventListener('load', setup)
   
