@@ -29,12 +29,12 @@ function setup () {
     setTimeout(createGifCircle, 100, 30, 0.3, 150)
     setTimeout(createGifCircle, 200, 30, 0.3, 160)
     setTimeout(createGifCircle, 250, 30, 0.3, 190)
-    setTimeout(createGifCircle, 250, 30, 0.3, 210)
-    setTimeout(createGifCircle, 250, 30, 0.3, 230)
-    setTimeout(createGifCircle, 250, 30, 0.3, 250)
-    setTimeout(createGifCircle, 250, 30, 0.3, 270)
-    setTimeout(createGifCircle, 250, 30, 0.3, 300)
-    setTimeout(createGifCircle, 250, 30, 0.3, 350)
+    setTimeout(createGifCircle, 300, 30, 0.3, 210)
+    setTimeout(createGifCircle, 300, 30, 0.3, 230)
+    setTimeout(createGifCircle, 350, 30, 0.3, 250)
+    setTimeout(createGifCircle, 350, 30, 0.3, 270)
+    setTimeout(createGifCircle, 400, 30, 0.3, 300)
+    setTimeout(createGifCircle, 400, 30, 0.3, 350)
     createGifCircle(1, 0.6, 1)
 }
  
