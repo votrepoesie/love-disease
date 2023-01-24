@@ -28,14 +28,15 @@ function setup () {
     createGifCircle(30, 0.3, 100)
     setTimeout(createGifCircle, 100, 30, 0.3, 150)
     setTimeout(createGifCircle, 200, 30, 0.3, 160)
-    setTimeout(createGifCircle, 250, 30, 0.3, 190)
-    setTimeout(createGifCircle, 300, 30, 0.3, 210)
-    setTimeout(createGifCircle, 300, 30, 0.3, 230)
-    setTimeout(createGifCircle, 350, 30, 0.3, 250)
-    setTimeout(createGifCircle, 350, 30, 0.3, 270)
-    setTimeout(createGifCircle, 400, 30, 0.3, 300)
-    setTimeout(createGifCircle, 400, 30, 0.3, 350)
+    // setTimeout(createGifCircle, 250, 30, 0.3, 190)
+    setTimeout(createGifCircle, 300, 30, 0.3, 180)
+    // setTimeout(createGifCircle, 300, 30, 0.3, 230)
+    setTimeout(createGifCircle, 400, 30, 0.3, 250)
+    // setTimeout(createGifCircle, 350, 30, 0.3, 270)
+    setTimeout(createGifCircle, 500, 30, 0.3, 300)
+    setTimeout(createGifCircle, 600, 100, 1, 360)
     createGifCircle(1, 0.6, 1)
+
 }
 
 const changeColor = () => {
@@ -43,9 +44,9 @@ const changeColor = () => {
     const r = Math.random() * 255
     const g = Math.random() * 255
     const b = Math.random() * 255
-    const color = `rgb(${r}, ${g - 70}, ${b + 80})`
+    const color = `rgb(${r - 150}, ${g - 150}, ${b - 150})`
     document.body.style.backgroundColor = color
-    setTimeout(changeColor, 300)
+    setTimeout(changeColor, 500)
 }
  
 window.addEventListener('load', setup)
@@ -54,4 +55,9 @@ changeColor()
 
 setTimeout(() => {
     document.location.reload();
-}, 1500);
+}, 3000);
+
+
+
+
+
