@@ -25,22 +25,23 @@ function createGifCircle (num, scale, radius) {
   
 function animate () {
 
-    setTimeout(animate, 3000)
-    document.body.innerHTML = ''
+    setTimeout(animate, 1500)
+    document.body.innerHTML = '' 
+    //recursive call to itself; remove all the other elements by clearing the body's innerHTML
 
     document.body.style.overflow = 'hidden'
 
     createGifCircle(30, 0.3, 100)
-    setTimeout(createGifCircle, 100, 30, 0.3, 150)
-    setTimeout(createGifCircle, 200, 30, 0.3, 160)
-    setTimeout(createGifCircle, 300, 30, 0.3, 180)
-    setTimeout(createGifCircle, 400, 30, 0.3, 200)
-    setTimeout(createGifCircle, 500, 30, 0.3, 230)
-    setTimeout(createGifCircle, 600, 30, 0.3, 260)
-    setTimeout(createGifCircle, 700, 30, 0.3, 290)
-    setTimeout(createGifCircle, 800, 30, 0.3, 320)
-    setTimeout(createGifCircle, 900, 30, 0.3, 350)
-    setTimeout(createGifCircle, 1000, 30, 0.3, 500)
+    setTimeout(createGifCircle, 300, 30, 0.3, 150)
+    setTimeout(createGifCircle, 400, 30, 0.3, 160)
+    setTimeout(createGifCircle, 500, 30, 0.3, 180)
+    setTimeout(createGifCircle, 600, 30, 0.3, 200)
+    setTimeout(createGifCircle, 700, 30, 0.3, 230)
+    setTimeout(createGifCircle, 800, 30, 0.3, 260)
+    setTimeout(createGifCircle, 900, 30, 0.3, 290)
+    setTimeout(createGifCircle, 1000, 30, 0.3, 320)
+    setTimeout(createGifCircle, 1100, 30, 0.3, 350)
+    setTimeout(createGifCircle, 1200, 30, 0.3, 500)
 
 }
 
