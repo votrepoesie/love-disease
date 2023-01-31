@@ -28,10 +28,7 @@ function animate () {
     setTimeout(animate, 3000)
     document.body.innerHTML = ''
 
-
-    document.body.style.backgroundColor = bgColor
     document.body.style.overflow = 'hidden'
-
 
     createGifCircle(30, 0.3, 100)
     setTimeout(createGifCircle, 100, 30, 0.3, 150)
@@ -54,7 +51,8 @@ const changeColor = () => {
     const l = 90 + '%'
     const color = `hsl(${h}, ${s}, ${l})`
     document.body.style.backgroundColor = color
-    setTimeout(changeColor, 600)
+    setTimeout(changeColor, 1200)
+    //want to smooth out transitions between colors
 }
  
 window.addEventListener('load', animate)
